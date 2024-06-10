@@ -1,6 +1,7 @@
 <?php
     //cookie = Information about a user stored in a user's web-browser,
     //         targeted advertisements, browsing perferences, and other non-sensitive data
+    //         F12 -> applications to view cookies
 
     // setcookie( "key", "value", expire time (second), path ) ;
     setcookie( "fav_food", "pizza", time( ) + (86400 * 2), "/" ) ;
