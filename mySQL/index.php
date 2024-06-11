@@ -21,7 +21,6 @@
 
     /// RETRIEVE DATA FROM DATABASE
     $sql = "SELECT * FROM users" ;
-    mysqli_query( $conn, $sql ) ;
     $result = mysqli_query( $conn, $sql ) ;
 
     // return how many rows in $result
